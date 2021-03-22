@@ -1,0 +1,43 @@
+.grid {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid__item:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.hotel {
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid #eaeaea;
+}
+
+.hotel__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel__info {
+    display: flex;
+    margin-top: -0.5rem;
+}
+
+.hotel__info > * {
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.hotel__body {
+    margin-top: 1rem;
+}
+
+.rating {
+    display: flex;
+}
+
+.filter__rating {
+    display: flex;
+    flex-direction: column;
+}

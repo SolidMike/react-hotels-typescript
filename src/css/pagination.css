@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.pagination__item {
+    margin: 0 0.5rem;
+}
+.pagination__link {
+    display: block;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    padding: 0.8rem;
+    background-color: #08c988;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s, background-color 0.3s;
+}
+.pagination__link:hover {
+    background-color: #fff;
+    color: #08c988;
+}
